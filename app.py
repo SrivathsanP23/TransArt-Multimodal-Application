@@ -132,4 +132,4 @@ with gr.Blocks(css="""
         btn_image.click(fn=generate_image_from_prompt, inputs=prompt_input, outputs=image_output)
 
 # Launch the interface
-iface.launch()
+iface.launch(server_name="0.0.0.0")
