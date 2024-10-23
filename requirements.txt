@@ -1,0 +1,9 @@
+openai-whisper
+deep-translator
+groq
+gradio
+accelerate
+transformers
+diffusers
+torch 
+torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 
