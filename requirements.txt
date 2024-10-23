@@ -6,4 +6,6 @@ accelerate
 transformers
 diffusers
 torch 
-torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 
+pillow 
+requests 
+whisper
