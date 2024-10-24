@@ -2,7 +2,8 @@
 
 ```
 🚀🚀🚀
-TransArt seamlessly transcribes audio, translates it into multiple languages, and generates stunning visuals based on the content. Additionally,
+TransArt seamlessly transcribes audio, translates it into multiple languages, and generates stunning visuals
+based on the content. Additionally,
 it offers an interactive chatbot for engaging conversations and image generation, all in one platform.
 
 ```
@@ -16,18 +17,22 @@ it offers an interactive chatbot for engaging conversations and image generation
 Here are the key steps you followed to build the **TransArt Gradio application**:
 
 1. **Imported Libraries and Set Up Environment**:  
-   Imported essential libraries like `gradio`, `whisper`, `GoogleTranslator`, `StableDiffusionXLPipeline`, and others. Set up API keys for Hugging Face and Groq
+   Imported essential libraries like `gradio`, `whisper`, `GoogleTranslator`, `StableDiffusionXLPipeline`, and others.
+   Set up API keys for Hugging Face and Groq
    for model integration.
 
 2. **Created Audio Processing Function**:  
-   Developed a function (`process_audio`) to handle audio uploads, transcribe speech using Whisper, translate it from Tamil to English using `GoogleTranslator`,
+   Developed a function (`process_audio`) to handle audio uploads, transcribe speech using Whisper,
+   translate it from Tamil to English using `GoogleTranslator`,
    and optionally generate an image based on the translation.
 
 3. **Implemented Image Generation from Prompt**:  
-   Created a function (`generate_image_from_prompt`) to query a custom Stable Diffusion model, generating images based on user-provided text prompts.
+   Created a function (`generate_image_from_prompt`) to query a custom Stable Diffusion model,
+   generating images based on user-provided text prompts.
 
 4. **Integrated Chatbot with Image Generation**:  
-   Added a chatbot feature (`chatbox`) using the Groq API, where the user enters a prompt and receives both a text-based chatbot response and a generated image.
+   Added a chatbot feature (`chatbox`) using the Groq API, where the user enters a prompt and receives
+   both a text-based chatbot response and a generated image.
 
 5. **Designed Gradio Interface**:  
    Built the Gradio app using `gr.Blocks()` with multiple tabs:
@@ -36,10 +41,12 @@ Here are the key steps you followed to build the **TransArt Gradio application**
    - **Chatbot Tab**: Allows users to interact with a chatbot and generate images based on prompts.
 
 6. **Custom CSS Styling**:  
-   Customized the app’s appearance with CSS, defining background colors, button styles, and text color for a polished user interface.
+   Customized the app’s appearance with CSS, defining background colors, button styles, and text color for a
+   polished user interface.
 
 7. **Launched the Application**:  
-   Launched the Gradio app to be hosted on the specified server, making it accessible for live testing and demonstrations.
+   Launched the Gradio app to be hosted on the specified server, making it accessible for live testing and
+   demonstrations.
 
 These steps encapsulate the entire process of developing the **TransArt Gradio application**.
 
