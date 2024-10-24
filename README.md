@@ -2,19 +2,26 @@
 
 ```
 🚀🚀🚀
-TransArt seamlessly transcribes audio, translates it into multiple languages, and generates stunning visuals based on the content. Additionally, it offers an interactive chatbot for engaging conversations and image generation, all in one platform.
+TransArt seamlessly transcribes audio, translates it into multiple languages, and generates stunning visuals based on the content. Additionally,
+it offers an interactive chatbot for engaging conversations and image generation, all in one platform.
 
 ```
 
+## to install requirements 
+
+<h3><code>pip install -r requirements.txt</code></h3>
+
 ```
-<p>
+
 Here are the key steps you followed to build the **TransArt Gradio application**:
 
 1. **Imported Libraries and Set Up Environment**:  
-   Imported essential libraries like `gradio`, `whisper`, `GoogleTranslator`, `StableDiffusionXLPipeline`, and others. Set up API keys for Hugging Face and Groq for model integration.
+   Imported essential libraries like `gradio`, `whisper`, `GoogleTranslator`, `StableDiffusionXLPipeline`, and others. Set up API keys for Hugging Face and Groq
+   for model integration.
 
 2. **Created Audio Processing Function**:  
-   Developed a function (`process_audio`) to handle audio uploads, transcribe speech using Whisper, translate it from Tamil to English using `GoogleTranslator`, and optionally generate an image based on the translation.
+   Developed a function (`process_audio`) to handle audio uploads, transcribe speech using Whisper, translate it from Tamil to English using `GoogleTranslator`,
+   and optionally generate an image based on the translation.
 
 3. **Implemented Image Generation from Prompt**:  
    Created a function (`generate_image_from_prompt`) to query a custom Stable Diffusion model, generating images based on user-provided text prompts.
@@ -35,7 +42,7 @@ Here are the key steps you followed to build the **TransArt Gradio application**
    Launched the Gradio app to be hosted on the specified server, making it accessible for live testing and demonstrations.
 
 These steps encapsulate the entire process of developing the **TransArt Gradio application**.
-</p>
+
 ```
 
 ![image](https://github.com/user-attachments/assets/2111f5de-7d51-437c-b6bd-1b1dc495dcbd)
